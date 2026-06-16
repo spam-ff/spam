@@ -109,7 +109,7 @@ def gJwt(u,p):
     pay=bLd(at,oid)
     r=requests.post(
         "https://loginbp.ggpolarbear.com/MajorLogin",
-        headers={"Expect":"100-continue","X-Unity-Version":"2018.4.11f1","X-GA":"v1 1","ReleaseVersion":"OB53","Authorization":"Bearer ","Host":"loginbp.common.ggbluefox.com","User-Agent":"Dalvik/2.1.0 (Linux; U; Android 13; A063)","Content-Type":"application/x-www-form-urlencoded","Accept-Encoding":"gzip"},
+        headers={"Expect":"100-continue","X-Unity-Version":"2018.4.11f1","X-GA":"v1 1","ReleaseVersion":"OB53","Authorization":"Bearer ","Host":"clientbp.ggpolarbear.com","User-Agent":"Dalvik/2.1.0 (Linux; U; Android 13; A063)","Content-Type":"application/x-www-form-urlencoded","Accept-Encoding":"gzip"},
         data=pay,verify=False,timeout=20
     )
     if r.status_code!=200: raise Exception(f"MajorLogin {r.status_code}")
