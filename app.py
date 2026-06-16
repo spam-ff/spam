@@ -23,7 +23,7 @@ REGION_FILES = {
     "NA": "spam_br.json",
     "EU": "spam_eu.json",
     "VN": "spam_vn.json",
-    "ME": "spam_me.json",
+    "ME": "spam_ME.json",
     "BD": "spam_bd.json"
 }
 
