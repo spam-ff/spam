@@ -86,7 +86,7 @@ TOKEN_FILE = os.path.join(STORAGE_PATH, "token_me.json")
 AES_KEY = b'Yg&tc%DEuh6%Zc^8'
 AES_IV = b'6oyZDr22E3ychjM%'
 TOKEN_REFRESH_INTERVAL_HOURS = 0.1666  
-MAX_WORKERS = 10
+MAX_WORKERS = 20
 
 scheduler_started = False
 
